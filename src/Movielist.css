@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Open+Sans:wght@300;500&family=Poppins&family=Roboto&family=Source+Code+Pro&display=swap');
+
+.movielist__container {
+    border: 2px solid white;
+    background: white;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.movielist__container img {
+    height: 300px;
+    width: 200px;
+    padding: 8px;
+    }
+
+.movielist__title span{
+    color: black;
+    position: relative;
+    bottom: 10px;
+    left: 8px;
+    font-size: 12px;
+    font-weight: bolder;
+    max-width: 200px;
+}
+
+.movielist__details {
+    position: relative;
+    bottom: 15px;
+    left: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: -7px;
+    margin-right: 18px;
+    font-weight: 500;
+    font-size: 13px;
+}
