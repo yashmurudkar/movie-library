@@ -21,7 +21,7 @@ function Navbar({ setSearch, setSelectedMovie }) {
   return (
     <div className="Navbar">
       <div className="title" onClick={handleRefresh}>
-        <img src="/movie-icon.png" alt="" /> Movie Library
+        <img src="./movie-icon.png" alt="" /> Movie Library
       </div>
       <input
         type="text"
