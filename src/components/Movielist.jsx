@@ -19,9 +19,9 @@ function Movielist({ poster, title, year, type, setSelectedMovie, id }) {
         src={
           poster
             ? poster
-            : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfNNOBV277GBhm6AafAXMDGRKE3-d6ic6g4VsIDk&s"
+            : "https://png.pngtree.com/element_our/png/20181227/movie-icon-which-is-designed-for-all-application-purpose-new-png_287896.jpg"
         }
-        alt=""
+        alt="No Image Available"
       />
       <div className="movielist__title">
         <span>{title.length > 30 ? title.slice(0, 31) + "..." : title}</span>
